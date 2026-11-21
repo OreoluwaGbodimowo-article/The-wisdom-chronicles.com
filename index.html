@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Wisdom Chronicles | Words That Inspire</title>
+
+<meta name="description" content="The Wisdom Chronicles is a home for wisdom, faith, personal growth, meaningful stories and life reflections.">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #faf8f2;
+    color: #33352d;
+    line-height: 1.7;
+}
+
+header {
+    background: #263b32;
+    color: white;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #d9bd82;
+}
+
+.hero {
+    min-height: 520px;
+    padding: 100px 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(28, 48, 38, 0.78),
+        rgba(28, 48, 38, 0.78)
+    ),
+    url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1600")
+    center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    font-size: 19px;
+}
+
+.button {
+    display: inline-block;
+    background: #d9bd82;
+    color: #263b32;
+    padding: 13px 28px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+section {
+    padding: 75px 9%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    color: #263b32;
+    margin-bottom: 15px;
+}
+
+.intro {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.card h3 {
+    color: #526c55;
+    margin-bottom: 12px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #526c55;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about {
+    background: #eeeadd;
+    text-align: center;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.quote {
+    background: #263b32;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+footer {
+    background: #1d3028;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+@media(max-width: 700px) {
+    header {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    section {
+        padding: 55px 7%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">The Wisdom Chronicles</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#stories">Explore</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+    <h1>Welcome to The Wisdom Chronicles</h1>
+
+    <p>
+        A home for meaningful words, thoughtful reflections,
+        faith, personal growth and stories that inspire the soul.
+    </p>
+
+    <a href="#stories" class="button">Explore Our World</a>
+</section>
+
+<section id="about" class="about">
+    <h2 class="section-title">Our Story</h2>
+
+    <p>
+        The Wisdom Chronicles was created as a space for
+        reflection, inspiration and meaningful conversations.
+        We believe that every experience carries a lesson,
+        every story has a voice, and every life has something
+        valuable to teach.
+    </p>
+
+    <p>
+        Through words, stories and reflections, we hope to
+        encourage people to think deeply, grow intentionally,
+        embrace faith and discover the beauty of life's journey.
+    </p>
+</section>
+
+<section id="stories">
+    <h2 class="section-title">Explore The Chronicles</h2>
+
+    <p class="intro">
+        Discover thoughts, stories and ideas that encourage
+        wisdom, hope and personal transformation.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Wisdom & Life Lessons</h3>
+            <p>
+                Reflections and timeless lessons to help us
+                understand life and make meaningful choices.
+            </p>
+            <a href="#contact">Explore More →</a>
+        </div>
+
+        <div class="card">
+            <h3>Faith & Inspiration</h3>
+            <p>
+                Encouragement, spiritual reflections and
+                reminders to keep faith alive.
+            </p>
+            <a href="#contact">Explore More →</a>
+        </div>
+
+        <div class="card">
+            <h3>Personal Growth</h3>
+            <p>
+                Conversations about healing, self-discovery,
+                becoming better and finding purpose.
+            </p>
+            <a href="#contact">Explore More →</a>
+        </div>
+
+        <div class="card">
+            <h3>Relationships</h3>
+            <p>
+                Thoughtful discussions about love, friendship,
+                connection, boundaries and understanding.
+            </p>
+            <a href="#contact">Explore More →</a>
+        </div>
+
+        <div class="card">
+            <h3>Stories & Creativity</h3>
+            <p>
+                A collection of creative expressions,
+                meaningful stories and inspiring words.
+            </p>
+            <a href="#contact">Explore More →</a>
+        </div>
+
+        <div class="card">
+            <h3>Life Reflections</h3>
+            <p>
+                Exploring life's questions, experiences,
+                challenges and beautiful possibilities.
+            </p>
+            <a href="#contact">Explore More →</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="quote">
+    <p>
+        "Wisdom is not simply knowing more;
+        it is learning to see life differently."
+    </p>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Be Part of the Chronicles</h2>
+
+    <p class="intro">
+        Every reader has a story. Every story has a lesson.
+        Thank you for being part of this journey.
+    </p>
+
+    <div style="text-align:center;">
+        <a href="#home" class="button">Back to Home</a>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 The Wisdom Chronicles. All Rights Reserved.</p>
+    <p>Words that inspire. Stories that transform. Wisdom that lives.</p>
+</footer>
+
+</body>
+  </html>
