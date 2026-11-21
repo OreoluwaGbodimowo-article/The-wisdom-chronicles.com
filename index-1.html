@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The Wisdom Chronicles — a thoughtful space for stories, faith, personal growth and meaningful living.">
+<title>The Wisdom Chronicles | Read. Reflect. Learn. Grow.</title>
+<style>
+:root{--ink:#24221f;--muted:#6f6a61;--cream:#f7f3eb;--paper:#fffdf8;--gold:#b18a4a;--line:#e8dfd1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.65}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,90%);margin:auto}
+header{background:rgba(247,243,235,.96);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-size:1.15rem;letter-spacing:.12em;text-transform:uppercase;font-weight:bold}.brand span{display:block;font: .65rem Arial,sans-serif;letter-spacing:.25em;color:var(--gold);text-align:center;margin-top:2px}
+nav{display:flex;gap:24px;font: .88rem Arial,sans-serif;color:#514c44}nav a:hover{color:var(--gold)}
+.menu{display:none;background:none;border:1px solid var(--line);padding:8px 12px;font-size:1.2rem}
+.hero{min-height:570px;display:grid;place-items:center;text-align:center;color:#fff;background:linear-gradient(120deg,rgba(22,20,17,.83),rgba(35,29,20,.53)),radial-gradient(ellipse at 70% 30%,#8b744f,#29251e 65%);padding:90px 20px}
+.hero-inner{max-width:780px}.eyebrow{font: .75rem Arial,sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#e4c98e}
+h1{font-size:clamp(2.8rem,7vw,5.4rem);line-height:1.06;font-weight:normal;margin:22px 0}.hero p{font-size:1.2rem;color:#eee5d8;max-width:650px;margin:0 auto 32px}
+.button{display:inline-block;padding:13px 25px;border:1px solid var(--gold);background:var(--gold);color:#fff;font: .82rem Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}.button.outline{background:transparent;border-color:#d8c39b;color:#fff}
+section{padding:82px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 42px}.kicker{font: .72rem Arial,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}h2{font-size:clamp(2rem,4vw,3rem);font-weight:normal;line-height:1.2;margin:12px 0 16px}.section-head p,.muted{color:var(--muted)}
+.intro{background:var(--paper)}.intro-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:65px;align-items:center}.intro-mark{min-height:300px;background:linear-gradient(145deg,#332c21,#8b7149);display:grid;place-items:center;color:#f5e9d1;text-align:center;padding:30px}.intro-mark strong{font-size:2rem;font-weight:normal;letter-spacing:.08em}.intro-mark small{display:block;font: .7rem Arial,sans-serif;letter-spacing:.3em;margin-top:12px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:var(--paper);border:1px solid var(--line);padding:28px;min-height:230px}.card .num{font: .75rem Arial,sans-serif;color:var(--gold);letter-spacing:.15em}.card h3{font-size:1.5rem;font-weight:normal;margin:15px 0 8px}.card p{color:var(--muted);font-size:.98rem}.card a{font: .78rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:#94713b}
+.quote{background:#2b2924;color:#f8f1e5;text-align:center}.quote blockquote{font-size:clamp(1.7rem,4vw,2.7rem);line-height:1.35;max-width:850px;margin:18px auto}.quote p{font: .72rem Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#d8bd88}
+.contribute{background:var(--paper);text-align:center}.contribute p{max-width:650px;margin:0 auto 25px;color:var(--muted)}
+footer{background:#211f1b;color:#e9e0d1;padding:35px 0;text-align:center}footer .brand{font-size:1rem}footer p{font: .8rem Arial,sans-serif;color:#bdb3a4}
+@media(max-width:760px){.menu{display:block}nav{display:none;position:absolute;left:0;right:0;top:76px;background:var(--cream);padding:18px 5%;border-bottom:1px solid var(--line);flex-direction:column;gap:14px}nav.open{display:flex}.intro-grid{grid-template-columns:1fr;gap:30px}.cards{grid-template-columns:1fr}.hero{min-height:530px}section{padding:62px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home">The Wisdom Chronicles<span>Read · Reflect · Learn · Grow</span></a>
+<button class="menu" aria-label="Open navigation" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+<nav><a href="#home">Home</a><a href="#about">About</a><a href="#chronicles">Explore</a><a href="#contribute">Write with us</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="hero-inner">
+<div class="eyebrow">A space for thoughtful living</div>
+<h1>Wisdom for the journey.<br>Stories for the soul.</h1>
+<p>Ideas, experiences and reflections to help us understand life better, grow with intention and make meaningful choices.</p>
+<a class="button" href="#chronicles">Explore the Chronicles</a>
+</div></section>
+<section class="intro" id="about"><div class="wrap intro-grid">
+<div class="intro-mark"><div><strong>WISDOM<br>CHRONICLES</strong><small>THOUGHTS THAT GROW WITH YOU</small></div></div>
+<div><div class="kicker">Our story</div><h2>More than information. A way of seeing life.</h2>
+<p>We believe that wisdom is not simply about knowing more; it is about understanding better, living intentionally and making meaningful choices.</p>
+<p>Every experience has something to teach us. Every season has a purpose. Every day presents an opportunity to learn, grow and become wiser.</p>
+<p class="muted">The Wisdom Chronicles is an independent space for personal reflections and shared voices on life, faith, relationships, creativity and personal development.</p>
+</div></div></section>
+<section id="chronicles"><div class="wrap">
+<div class="section-head"><div class="kicker">Explore the Chronicles</div><h2>There is wisdom in every season.</h2><p>Pause, explore a thought, and take something meaningful with you.</p></div>
+<div class="cards">
+<article class="card"><div class="num">01 / REFLECTIONS</div><h3>Life & Living</h3><p>Thoughts on everyday experiences, change, choices and the lessons that shape us.</p><a href="mailto:hello@wisdomchronicles.com?subject=Life%20%26%20Living">Explore this theme →</a></article>
+<article class="card"><div class="num">02 / INNER GROWTH</div><h3>Personal Growth</h3><p>Gentle encouragement for self-awareness, confidence, healing and becoming.</p><a href="mailto:hello@wisdomchronicles.com?subject=Personal%20Growth">Explore this theme →</a></article>
+<article class="card"><div class="num">03 / FAITH</div><h3>Faith & Inspiration</h3><p>Uplifting reflections on hope, purpose, gratitude and the spiritual journey.</p><a href="mailto:hello@wisdomchronicles.com?subject=Faith%20%26%20Inspiration">Explore this theme →</a></article>
+<article class="card"><div class="num">04 / CONNECTION</div><h3>Relationships</h3><p>Exploring love, friendship, family, boundaries and the value of understanding.</p><a href="mailto:hello@wisdomchronicles.com?subject=Relationships">Explore this theme →</a></article>
+<article class="card"><div class="num">05 / CREATIVITY</div><h3>Stories & Creativity</h3><p>Personal stories, creative ideas and voices that invite us to see things differently.</p><a href="mailto:hello@wisdomchronicles.com?subject=Stories%20%26%20Creativity">Explore this theme →</a></article>
+<article class="card"><div class="num">06 / SHARED VOICES</div><h3>Guest Chronicles</h3><p>Thoughtful contributions from writers and readers who have something worth sharing.</p><a href="#contribute">Share your story →</a></article>
+</div></div></section>
+<section class="quote"><div class="wrap"><div class="kicker">A gentle reminder</div><blockquote>“You do not have to have every answer today. Stay curious, keep learning, and let each season teach you.”</blockquote><p>Read. Reflect. Learn. Grow.</p></div></section>
+<section class="contribute" id="contribute"><div class="wrap"><div class="kicker">Your voice matters</div><h2>Have a story worth sharing?</h2><p>The Wisdom Chronicles welcomes thoughtful perspectives, personal essays and meaningful stories. If you would like to contribute, introduce your idea and tell us a little about what you hope readers will take away.</p><a class="button" style="color:white" href="mailto:hello@wisdomchronicles.com?subject=Write%20for%20The%20Wisdom%20Chronicles">Become a contributor</a></div></section>
+</main>
+<footer><div class="wrap"><div class="brand">The Wisdom Chronicles</div><p>Read. Reflect. Learn. Grow.</p><p>© <span id="year"></span> The Wisdom Chronicles. A space for thoughtful living.</p></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>document.querySelector('nav').classList.remove('open')));</script>
+</body></html>
